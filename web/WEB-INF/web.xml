@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>Registerservlet</servlet-name>
+        <servlet-class>com.servlet.Registerservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Loginservlet</servlet-name>
+        <servlet-class>com.servlet.Loginservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Logoutservlet</servlet-name>
+        <servlet-class>com.servlet.Logoutservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Editservlet</servlet-name>
+        <servlet-class>com.servlet.Editservlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Postservlet</servlet-name>
+        <servlet-class>com.servlet.Postservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registerservlet</servlet-name>
+        <url-pattern>/Registerservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Loginservlet</servlet-name>
+        <url-pattern>/Loginservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logoutservlet</servlet-name>
+        <url-pattern>/Logoutservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Editservlet</servlet-name>
+        <url-pattern>/Editservlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Postservlet</servlet-name>
+        <url-pattern>/Postservlet</url-pattern>
+    </servlet-mapping>
+</web-app>
